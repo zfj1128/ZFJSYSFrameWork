@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		9D9823AB1EEA99B3000332DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9823AA1EEA99B3000332DF /* main.m */; };
-		9D9823AE1EEA99B3000332DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9823AD1EEA99B3000332DF /* AppDelegate.m */; };
-		9D9823B11EEA99B3000332DF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9823B01EEA99B3000332DF /* ViewController.m */; };
-		9D9823B41EEA99B3000332DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D9823B21EEA99B3000332DF /* Main.storyboard */; };
 		9D9823B61EEA99B3000332DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D9823B51EEA99B3000332DF /* Assets.xcassets */; };
-		9D9823B91EEA99B3000332DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D9823B71EEA99B3000332DF /* LaunchScreen.storyboard */; };
 		9D9823C41EEA99B3000332DF /* ZFJSYSFrameWorkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9823C31EEA99B3000332DF /* ZFJSYSFrameWorkTests.m */; };
 		9D9823CF1EEA99B4000332DF /* ZFJSYSFrameWorkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9823CE1EEA99B4000332DF /* ZFJSYSFrameWorkUITests.m */; };
+		9D9823E81EEAA030000332DF /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9823E71EEAA030000332DF /* RootViewController.m */; };
+		9D9823EC1EEAA055000332DF /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9823EB1EEAA055000332DF /* BaseViewController.m */; };
+		9D9823F01EEAA07E000332DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9823EF1EEAA07E000332DF /* AppDelegate.m */; };
+		9DFB5B551EEAA45400395D80 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DFB5B541EEAA45400395D80 /* HomeViewController.m */; };
+		9DFB5B591EEAA47800395D80 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DFB5B581EEAA47800395D80 /* MineViewController.m */; };
 		E065CC3B1BDD67E18210811F /* libPods-ZFJSYSFrameWork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E7861DD6D648755C4DFBAF45 /* libPods-ZFJSYSFrameWork.a */; };
 /* End PBXBuildFile section */
 
@@ -39,13 +40,7 @@
 		1F180D4321ED251B392870C1 /* Pods-ZFJSYSFrameWork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZFJSYSFrameWork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZFJSYSFrameWork/Pods-ZFJSYSFrameWork.debug.xcconfig"; sourceTree = "<group>"; };
 		9D9823A61EEA99B3000332DF /* ZFJSYSFrameWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZFJSYSFrameWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D9823AA1EEA99B3000332DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		9D9823AC1EEA99B3000332DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		9D9823AD1EEA99B3000332DF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9D9823AF1EEA99B3000332DF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9D9823B01EEA99B3000332DF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		9D9823B31EEA99B3000332DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9D9823B51EEA99B3000332DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9D9823B81EEA99B3000332DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D9823BA1EEA99B3000332DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D9823BF1EEA99B3000332DF /* ZFJSYSFrameWorkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZFJSYSFrameWorkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D9823C31EEA99B3000332DF /* ZFJSYSFrameWorkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFJSYSFrameWorkTests.m; sourceTree = "<group>"; };
@@ -54,6 +49,16 @@
 		9D9823CE1EEA99B4000332DF /* ZFJSYSFrameWorkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFJSYSFrameWorkUITests.m; sourceTree = "<group>"; };
 		9D9823D01EEA99B4000332DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D9823DD1EEA9E1C000332DF /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		9D9823E61EEAA030000332DF /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		9D9823E71EEAA030000332DF /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		9D9823EA1EEAA055000332DF /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		9D9823EB1EEAA055000332DF /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		9D9823EE1EEAA07E000332DF /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9D9823EF1EEAA07E000332DF /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9DFB5B531EEAA45400395D80 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		9DFB5B541EEAA45400395D80 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		9DFB5B571EEAA47800395D80 /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		9DFB5B581EEAA47800395D80 /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
 		E7861DD6D648755C4DFBAF45 /* libPods-ZFJSYSFrameWork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZFJSYSFrameWork.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFEE13A95EECB17B246CF113 /* Pods-ZFJSYSFrameWork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZFJSYSFrameWork.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZFJSYSFrameWork/Pods-ZFJSYSFrameWork.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -96,6 +101,7 @@
 		9D98239D1EEA99B3000332DF = {
 			isa = PBXGroup;
 			children = (
+				9D9823DE1EEA9F73000332DF /* Class */,
 				9D9823A81EEA99B3000332DF /* ZFJSYSFrameWork */,
 				9D9823C21EEA99B3000332DF /* ZFJSYSFrameWorkTests */,
 				9D9823CD1EEA99B4000332DF /* ZFJSYSFrameWorkUITests */,
@@ -118,16 +124,10 @@
 		9D9823A81EEA99B3000332DF /* ZFJSYSFrameWork */ = {
 			isa = PBXGroup;
 			children = (
-				9D9823AC1EEA99B3000332DF /* AppDelegate.h */,
-				9D9823AD1EEA99B3000332DF /* AppDelegate.m */,
-				9D9823AF1EEA99B3000332DF /* ViewController.h */,
-				9D9823B01EEA99B3000332DF /* ViewController.m */,
-				9D9823B21EEA99B3000332DF /* Main.storyboard */,
 				9D9823B51EEA99B3000332DF /* Assets.xcassets */,
-				9D9823B71EEA99B3000332DF /* LaunchScreen.storyboard */,
 				9D9823BA1EEA99B3000332DF /* Info.plist */,
-				9D9823A91EEA99B3000332DF /* Supporting Files */,
 				9D9823DD1EEA9E1C000332DF /* PrefixHeader.pch */,
+				9D9823A91EEA99B3000332DF /* Supporting Files */,
 			);
 			path = ZFJSYSFrameWork;
 			sourceTree = "<group>";
@@ -156,6 +156,132 @@
 				9D9823D01EEA99B4000332DF /* Info.plist */,
 			);
 			path = ZFJSYSFrameWorkUITests;
+			sourceTree = "<group>";
+		};
+		9D9823DE1EEA9F73000332DF /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				9D9823E31EEA9F73000332DF /* Main(主要类) */,
+				9D9823E21EEA9F73000332DF /* Resource(资源) */,
+				9D9823E01EEA9F73000332DF /* Other(其他) */,
+				9D9823DF1EEA9F73000332DF /* Expand(扩展) */,
+				9D9823E11EEA9F73000332DF /* Lib(开源库) */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		9D9823DF1EEA9F73000332DF /* Expand(扩展) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Expand(扩展)";
+			path = Expand;
+			sourceTree = "<group>";
+		};
+		9D9823E01EEA9F73000332DF /* Other(其他) */ = {
+			isa = PBXGroup;
+			children = (
+				9D9823ED1EEAA06E000332DF /* AppDelegate */,
+			);
+			name = "Other(其他)";
+			path = Other;
+			sourceTree = "<group>";
+		};
+		9D9823E11EEA9F73000332DF /* Lib(开源库) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Lib(开源库)";
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		9D9823E21EEA9F73000332DF /* Resource(资源) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Resource(资源)";
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		9D9823E31EEA9F73000332DF /* Main(主要类) */ = {
+			isa = PBXGroup;
+			children = (
+				9DFB5B501EEAA41D00395D80 /* Home */,
+				9DFB5B511EEAA41D00395D80 /* Mine */,
+				9D9823E41EEA9FE8000332DF /* TabAndBase */,
+			);
+			name = "Main(主要类)";
+			path = Main;
+			sourceTree = "<group>";
+		};
+		9D9823E41EEA9FE8000332DF /* TabAndBase */ = {
+			isa = PBXGroup;
+			children = (
+				9D9823E91EEAA037000332DF /* Base */,
+				9D9823E51EEAA00B000332DF /* tabBar */,
+			);
+			path = TabAndBase;
+			sourceTree = "<group>";
+		};
+		9D9823E51EEAA00B000332DF /* tabBar */ = {
+			isa = PBXGroup;
+			children = (
+				9D9823E61EEAA030000332DF /* RootViewController.h */,
+				9D9823E71EEAA030000332DF /* RootViewController.m */,
+			);
+			name = tabBar;
+			sourceTree = "<group>";
+		};
+		9D9823E91EEAA037000332DF /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				9D9823EA1EEAA055000332DF /* BaseViewController.h */,
+				9D9823EB1EEAA055000332DF /* BaseViewController.m */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		9D9823ED1EEAA06E000332DF /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				9D9823EE1EEAA07E000332DF /* AppDelegate.h */,
+				9D9823EF1EEAA07E000332DF /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		9DFB5B501EEAA41D00395D80 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				9DFB5B521EEAA44400395D80 /* Controller */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		9DFB5B511EEAA41D00395D80 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				9DFB5B561EEAA46A00395D80 /* Controller */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		9DFB5B521EEAA44400395D80 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9DFB5B531EEAA45400395D80 /* HomeViewController.h */,
+				9DFB5B541EEAA45400395D80 /* HomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		9DFB5B561EEAA46A00395D80 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9DFB5B571EEAA47800395D80 /* MineViewController.h */,
+				9DFB5B581EEAA47800395D80 /* MineViewController.m */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		F7E94B588E605D624A26BC1F /* Frameworks */ = {
@@ -278,9 +404,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D9823B91EEA99B3000332DF /* LaunchScreen.storyboard in Resources */,
 				9D9823B61EEA99B3000332DF /* Assets.xcassets in Resources */,
-				9D9823B41EEA99B3000332DF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,8 +477,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D9823B11EEA99B3000332DF /* ViewController.m in Sources */,
-				9D9823AE1EEA99B3000332DF /* AppDelegate.m in Sources */,
+				9D9823EC1EEAA055000332DF /* BaseViewController.m in Sources */,
+				9D9823F01EEAA07E000332DF /* AppDelegate.m in Sources */,
+				9D9823E81EEAA030000332DF /* RootViewController.m in Sources */,
+				9DFB5B591EEAA47800395D80 /* MineViewController.m in Sources */,
+				9DFB5B551EEAA45400395D80 /* HomeViewController.m in Sources */,
 				9D9823AB1EEA99B3000332DF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -389,25 +516,6 @@
 			targetProxy = 9D9823CB1EEA99B4000332DF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		9D9823B21EEA99B3000332DF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9D9823B31EEA99B3000332DF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		9D9823B71EEA99B3000332DF /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9D9823B81EEA99B3000332DF /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		9D9823D11EEA99B4000332DF /* Debug */ = {
@@ -505,12 +613,15 @@
 			baseConfigurationReference = 1F180D4321ED251B392870C1 /* Pods-ZFJSYSFrameWork.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = B8H3H663U4;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/ZFJSYSFrameWork/PrefixHeader.pch";
 				INFOPLIST_FILE = ZFJSYSFrameWork/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.5151study.ZFJSYSFrameWork;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -519,12 +630,15 @@
 			baseConfigurationReference = EFEE13A95EECB17B246CF113 /* Pods-ZFJSYSFrameWork.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = B8H3H663U4;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/ZFJSYSFrameWork/PrefixHeader.pch";
 				INFOPLIST_FILE = ZFJSYSFrameWork/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.5151study.ZFJSYSFrameWork;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
