@@ -25,3 +25,46 @@
 
 //获取RGB颜色
 #define kTCColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+
+//AppDelegate代理
+#define SHARED_APPDELEGATE ((AppDelegate *)([UIApplication sharedApplication].delegate))
+
+// 通过16进制数设置颜色值
+#define UIColorWithHexA(rgbValue,a) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 \
+green:((float)((rgbValue & 0xFF00) >> 8))/255.0 \
+blue:((float)(rgbValue & 0xFF))/255.0 \
+alpha:(a)]
+#define UIColorWithHex(rgbValue)    UIColorWithHexA(rgbValue, 1.0)
+
+//获取系统版本
+#define IOS_Version [[[UIDevice currentDevice] systemVersion] floatValue]
+
+//rootViewController
+#define KRootViewController [UIApplication sharedApplication].delegate.window.rootViewController
+
+//读取本地图片
+#define ZFJLoadImage(file,ext) [UIImage imageWithContentsOfFile:[[NSBundle mainBundle]pathForResource:file ofType:ext]]
+
+//定义UIImage对象
+#define ZFJImage(imageName) [UIImage imageNamed:[NSString stringWithFormat:@"%@",imageName]]
+
+//NSUserDefaults 实例化
+#define USER_DEFAULT [NSUserDefaults standardUserDefaults]
+
+//重写NSLog,打印日志，当前行
+#if DEBUG
+#define NSLog(FORMAT, ...) fprintf(stderr,"\n方法名:%s 行数:%d 内容:%s\n", __FUNCTION__, __LINE__, [[NSString stringWithFormat:FORMAT, ##__VA_ARGS__] UTF8String]);
+#else
+#define NSLog(FORMAT, ...) nil
+#endif
+
+//重新设定view的Y值
+#define setFrameY(view, newY) view.frame = CGRectMake(view.frame.origin.x, newY, view.frame.size.width, view.frame.size.height)
+#define setFrameX(view, newX) view.frame = CGRectMake(newX, view.frame.origin.y, view.frame.size.width, view.frame.size.height)
+#define setFrameH(view, newH) view.frame = CGRectMake(view.frame.origin.x, view.frame.origin.y, view.frame.size.width, newH)
+
+//取view的坐标及长宽
+#define W(view)    view.frame.size.width
+#define H(view)    view.frame.size.height
+#define X(view)    view.frame.origin.x
+#define Y(view)    view.frame.origin.y

@@ -16,6 +16,7 @@
 		9D9823F01EEAA07E000332DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9823EF1EEAA07E000332DF /* AppDelegate.m */; };
 		9DFB5B551EEAA45400395D80 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DFB5B541EEAA45400395D80 /* HomeViewController.m */; };
 		9DFB5B591EEAA47800395D80 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DFB5B581EEAA47800395D80 /* MineViewController.m */; };
+		9DFB5B641EEAAAF300395D80 /* Projectinfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DFB5B631EEAAAF300395D80 /* Projectinfo.m */; };
 		E065CC3B1BDD67E18210811F /* libPods-ZFJSYSFrameWork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E7861DD6D648755C4DFBAF45 /* libPods-ZFJSYSFrameWork.a */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +60,8 @@
 		9DFB5B541EEAA45400395D80 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		9DFB5B571EEAA47800395D80 /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
 		9DFB5B581EEAA47800395D80 /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		9DFB5B621EEAAAF300395D80 /* Projectinfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Projectinfo.h; sourceTree = "<group>"; };
+		9DFB5B631EEAAAF300395D80 /* Projectinfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Projectinfo.m; sourceTree = "<group>"; };
 		E7861DD6D648755C4DFBAF45 /* libPods-ZFJSYSFrameWork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZFJSYSFrameWork.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFEE13A95EECB17B246CF113 /* Pods-ZFJSYSFrameWork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZFJSYSFrameWork.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZFJSYSFrameWork/Pods-ZFJSYSFrameWork.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -217,6 +220,7 @@
 		9D9823E41EEA9FE8000332DF /* TabAndBase */ = {
 			isa = PBXGroup;
 			children = (
+				9DFB5B611EEAAAF300395D80 /* Model */,
 				9D9823E91EEAA037000332DF /* Base */,
 				9D9823E51EEAA00B000332DF /* tabBar */,
 			);
@@ -282,6 +286,23 @@
 				9DFB5B581EEAA47800395D80 /* MineViewController.m */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		9DFB5B611EEAAAF300395D80 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9DFB5B651EEAAB0000395D80 /* 工程单利 */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9DFB5B651EEAAB0000395D80 /* 工程单利 */ = {
+			isa = PBXGroup;
+			children = (
+				9DFB5B621EEAAAF300395D80 /* Projectinfo.h */,
+				9DFB5B631EEAAAF300395D80 /* Projectinfo.m */,
+			);
+			name = "工程单利";
 			sourceTree = "<group>";
 		};
 		F7E94B588E605D624A26BC1F /* Frameworks */ = {
@@ -478,6 +499,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D9823EC1EEAA055000332DF /* BaseViewController.m in Sources */,
+				9DFB5B641EEAAAF300395D80 /* Projectinfo.m in Sources */,
 				9D9823F01EEAA07E000332DF /* AppDelegate.m in Sources */,
 				9D9823E81EEAA030000332DF /* RootViewController.m in Sources */,
 				9DFB5B591EEAA47800395D80 /* MineViewController.m in Sources */,
