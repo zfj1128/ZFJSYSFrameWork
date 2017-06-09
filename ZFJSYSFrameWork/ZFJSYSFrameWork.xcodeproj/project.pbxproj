@@ -15,6 +15,7 @@
 		9D9823B91EEA99B3000332DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D9823B71EEA99B3000332DF /* LaunchScreen.storyboard */; };
 		9D9823C41EEA99B3000332DF /* ZFJSYSFrameWorkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9823C31EEA99B3000332DF /* ZFJSYSFrameWorkTests.m */; };
 		9D9823CF1EEA99B4000332DF /* ZFJSYSFrameWorkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D9823CE1EEA99B4000332DF /* ZFJSYSFrameWorkUITests.m */; };
+		E065CC3B1BDD67E18210811F /* libPods-ZFJSYSFrameWork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E7861DD6D648755C4DFBAF45 /* libPods-ZFJSYSFrameWork.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F180D4321ED251B392870C1 /* Pods-ZFJSYSFrameWork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZFJSYSFrameWork.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZFJSYSFrameWork/Pods-ZFJSYSFrameWork.debug.xcconfig"; sourceTree = "<group>"; };
 		9D9823A61EEA99B3000332DF /* ZFJSYSFrameWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZFJSYSFrameWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D9823AA1EEA99B3000332DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9D9823AC1EEA99B3000332DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +53,8 @@
 		9D9823CA1EEA99B4000332DF /* ZFJSYSFrameWorkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZFJSYSFrameWorkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D9823CE1EEA99B4000332DF /* ZFJSYSFrameWorkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFJSYSFrameWorkUITests.m; sourceTree = "<group>"; };
 		9D9823D01EEA99B4000332DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7861DD6D648755C4DFBAF45 /* libPods-ZFJSYSFrameWork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZFJSYSFrameWork.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFEE13A95EECB17B246CF113 /* Pods-ZFJSYSFrameWork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZFJSYSFrameWork.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZFJSYSFrameWork/Pods-ZFJSYSFrameWork.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E065CC3B1BDD67E18210811F /* libPods-ZFJSYSFrameWork.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		429109C304582A482DEDF2B2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1F180D4321ED251B392870C1 /* Pods-ZFJSYSFrameWork.debug.xcconfig */,
+				EFEE13A95EECB17B246CF113 /* Pods-ZFJSYSFrameWork.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9D98239D1EEA99B3000332DF = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +99,8 @@
 				9D9823C21EEA99B3000332DF /* ZFJSYSFrameWorkTests */,
 				9D9823CD1EEA99B4000332DF /* ZFJSYSFrameWorkUITests */,
 				9D9823A71EEA99B3000332DF /* Products */,
+				429109C304582A482DEDF2B2 /* Pods */,
+				F7E94B588E605D624A26BC1F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,6 +156,14 @@
 			path = ZFJSYSFrameWorkUITests;
 			sourceTree = "<group>";
 		};
+		F7E94B588E605D624A26BC1F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E7861DD6D648755C4DFBAF45 /* libPods-ZFJSYSFrameWork.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +171,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9D9823D31EEA99B4000332DF /* Build configuration list for PBXNativeTarget "ZFJSYSFrameWork" */;
 			buildPhases = (
+				179B279C033D7ED8E7123DC6 /* [CP] Check Pods Manifest.lock */,
 				9D9823A21EEA99B3000332DF /* Sources */,
 				9D9823A31EEA99B3000332DF /* Frameworks */,
 				9D9823A41EEA99B3000332DF /* Resources */,
+				6E33DB31C34A98815876AE69 /* [CP] Embed Pods Frameworks */,
+				C18DB0BEB967E78C844AA50E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -270,6 +297,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		179B279C033D7ED8E7123DC6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6E33DB31C34A98815876AE69 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZFJSYSFrameWork/Pods-ZFJSYSFrameWork-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C18DB0BEB967E78C844AA50E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZFJSYSFrameWork/Pods-ZFJSYSFrameWork-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9D9823A21EEA99B3000332DF /* Sources */ = {
@@ -425,6 +500,7 @@
 		};
 		9D9823D41EEA99B4000332DF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F180D4321ED251B392870C1 /* Pods-ZFJSYSFrameWork.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = B8H3H663U4;
@@ -437,6 +513,7 @@
 		};
 		9D9823D51EEA99B4000332DF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFEE13A95EECB17B246CF113 /* Pods-ZFJSYSFrameWork.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = B8H3H663U4;
