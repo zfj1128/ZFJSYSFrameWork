@@ -53,6 +53,7 @@
 		9D9823CA1EEA99B4000332DF /* ZFJSYSFrameWorkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZFJSYSFrameWorkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D9823CE1EEA99B4000332DF /* ZFJSYSFrameWorkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZFJSYSFrameWorkUITests.m; sourceTree = "<group>"; };
 		9D9823D01EEA99B4000332DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D9823DD1EEA9E1C000332DF /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		E7861DD6D648755C4DFBAF45 /* libPods-ZFJSYSFrameWork.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZFJSYSFrameWork.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFEE13A95EECB17B246CF113 /* Pods-ZFJSYSFrameWork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZFJSYSFrameWork.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZFJSYSFrameWork/Pods-ZFJSYSFrameWork.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -126,6 +127,7 @@
 				9D9823B71EEA99B3000332DF /* LaunchScreen.storyboard */,
 				9D9823BA1EEA99B3000332DF /* Info.plist */,
 				9D9823A91EEA99B3000332DF /* Supporting Files */,
+				9D9823DD1EEA9E1C000332DF /* PrefixHeader.pch */,
 			);
 			path = ZFJSYSFrameWork;
 			sourceTree = "<group>";
@@ -504,6 +506,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = B8H3H663U4;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZFJSYSFrameWork/PrefixHeader.pch";
 				INFOPLIST_FILE = ZFJSYSFrameWork/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.5151study.ZFJSYSFrameWork;
@@ -517,6 +520,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = B8H3H663U4;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZFJSYSFrameWork/PrefixHeader.pch";
 				INFOPLIST_FILE = ZFJSYSFrameWork/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.5151study.ZFJSYSFrameWork;
@@ -593,6 +597,7 @@
 				9D9823D51EEA99B4000332DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9D9823D61EEA99B4000332DF /* Build configuration list for PBXNativeTarget "ZFJSYSFrameWorkTests" */ = {
 			isa = XCConfigurationList;
@@ -601,6 +606,7 @@
 				9D9823D81EEA99B4000332DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9D9823D91EEA99B4000332DF /* Build configuration list for PBXNativeTarget "ZFJSYSFrameWorkUITests" */ = {
 			isa = XCConfigurationList;
@@ -609,6 +615,7 @@
 				9D9823DB1EEA99B4000332DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
